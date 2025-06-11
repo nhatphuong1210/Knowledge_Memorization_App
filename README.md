@@ -22,7 +22,6 @@
 ### ✅ Flashcard
 - Tạo, chỉnh sửa, xóa flashcard theo từng chủ đề.
 - Giao diện lật flashcard đơn giản, dễ sử dụng.
-- Học theo cơ chế Spaced Repetition (lặp lại cách quãng - nếu có).
 
 ### ✅ Quiz
 - Tạo câu hỏi trắc nghiệm (multiple choice) theo từng chủ đề.
@@ -31,7 +30,6 @@
 
 ### ✅ Hệ thống thư mục
 - Người dùng có thể tạo **Folder** để nhóm các bộ câu hỏi/flashcard theo chủ đề.
-- Hỗ trợ tạo **Subfolder**, chỉnh sửa tên và xóa nếu cần.
 
 ### ✅ Tài khoản và lưu trữ
 - Đăng nhập bằng Google hoặc Email (qua Firebase Authentication).
@@ -53,12 +51,19 @@
 ---
 
 ## 📱 Giao diện mẫu
-![z6695158722196_61c335f7a60822daa1e3409d78345d16](https://github.com/user-attachments/assets/100b0915-338d-4aad-8318-5b474c1db7ee)
+** Giao diện trang đăng kí, đăng nhập, trang chủ admin**
+![image](https://github.com/user-attachments/assets/8111dd57-de65-4d3a-b882-608427e71677)
+** Giao diện các trang quản lí của Admin**
+![image](https://github.com/user-attachments/assets/3ffca78e-8e1d-412e-a0af-8e018f331dc3)
+![image](https://github.com/user-attachments/assets/b722ec7f-5e7f-48f8-85d3-b6ca2c5082aa)
+** Giao diện các trang của User**
+![image](https://github.com/user-attachments/assets/24c63105-0b21-405c-b7f4-7aee084b7993)
+![image](https://github.com/user-attachments/assets/c8a19a4f-64c0-4ef8-90c0-6e532edb1bf9)
+![image](https://github.com/user-attachments/assets/7dbd076b-7ea6-493a-b2aa-c85e0618fd55)
+![image](https://github.com/user-attachments/assets/c02f71ca-db90-4206-a41b-893b0224a10d)
 
 
-## 🔧 Cài đặt & chạy thử (Android)
 
-1. **Clone dự án**:
-```bash
-git clone https://github.com/nhatphuong1210/Knowledge_Memorization_App.git
-cd Knowledge_Memorization_App
+
+
+
