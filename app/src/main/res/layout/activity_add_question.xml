@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="24dp">
+
+    <!-- Nút quay lại -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:contentDescription="Back"
+        android:src="@drawable/arrow___left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Tiêu đề -->
+
+    <!-- Các ô nhập -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Thêm câu hỏi"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/questionInput"
+        style="@style/CustomEditText"
+        android:hint="Nhập câu hỏi"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#80222222"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/optionA"
+        style="@style/CustomEditText"
+        android:hint="Lựa chọn A"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/questionInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#80222222"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/optionB"
+        style="@style/CustomEditText"
+        android:hint="Lựa chọn B"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/optionA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#80222222"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/optionC"
+        style="@style/CustomEditText"
+        android:minHeight="48dp"
+        android:hint="Lựa chọn C"
+        app:layout_constraintTop_toBottomOf="@id/optionB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#80222222"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/optionD"
+        style="@style/CustomEditText"
+        android:hint="Lựa chọn D"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/optionC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="#80222222"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/correctAnswer"
+        style="@style/CustomEditText"
+        android:hint="Đáp án"
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/optionD"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="#80222222"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Nút Lưu -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button"
+         android:text="Lưu câu hỏi"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/correctAnswer"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

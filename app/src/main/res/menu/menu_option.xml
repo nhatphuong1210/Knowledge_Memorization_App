@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optionFragment"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/spinFragment"
+        android:icon="@drawable/spin"
+        android:title="Spin" />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/history"
+        android:title="History" />
+
+    <item
+        android:id="@+id/statisticsFragment2"
+        android:icon="@drawable/resource_static"
+        android:title="Statistics" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+</menu>

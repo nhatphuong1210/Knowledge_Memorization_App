@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823632289033",
+    "firebase_url": "https://knowledge-memorization-app-default-rtdb.firebaseio.com",
+    "project_id": "knowledge-memorization-app",
+    "storage_bucket": "knowledge-memorization-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823632289033:android:db3cb44a6fd13c57ef07d8",
+        "android_client_info": {
+          "package_name": "com.example.knowledgememorizationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823632289033-4o049150dttd3nabe66u18dgk89dnjcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knowledgememorizationapp",
+            "certificate_hash": "df0f64375abc13c810eed5aa4c60753196fb277a"
+          }
+        },
+        {
+          "client_id": "823632289033-ku1023mei1osol4gphvekjtro20f5lnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFsirow766MkI5Id1JomKAZNBYGlzSjIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823632289033-ku1023mei1osol4gphvekjtro20f5lnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

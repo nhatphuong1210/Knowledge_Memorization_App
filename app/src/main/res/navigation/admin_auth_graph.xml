@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_auth_graph"
+    app:startDestination="@id/homeAdminFragment">
+
+    <fragment
+        android:id="@+id/homeAdminFragment"
+        android:name="com.example.knowledgememorizationapp.admin.adminFragment.HomeAdminFragment"
+        android:label="fragment_home_admin"
+        tools:layout="@layout/fragment_home_admin" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.knowledgememorizationapp.admin.adminFragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/adminFlashcardFolderFragment"
+        android:name="com.example.knowledgememorizationapp.admin.flashcard.AdminFlashcardFolderFragment"
+        android:label="fragment_admin_flashcard_folder"
+        tools:layout="@layout/fragment_admin_flashcard_folder" />
+    <fragment
+        android:id="@+id/userManagementFragment"
+        android:name="com.example.knowledgememorizationapp.admin.adminFragment.UserManagementFragment"
+        android:label="fragment_user_management"
+        tools:layout="@layout/fragment_user_management" />
+
+</navigation>

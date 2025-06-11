@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/quizNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên danh mục: ..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/quizIdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã chia sẻ: ..."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sao chép mã"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

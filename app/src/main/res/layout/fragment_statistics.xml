@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F9FF"
+    tools:context=".user.Fragment.StatisticsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Tổng số thẻ -->
+        <androidx.cardview.widget.CardView
+            style="@style/MyCardStyle"
+            android:layout_marginBottom="12dp"
+            android:background="#E6F2FD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTotalCards"
+                android:layout_width="363dp"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Tổng số thẻ: 0"
+                android:textColor="#248FEF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Đã học -->
+        <androidx.cardview.widget.CardView
+            style="@style/MyCardStyle"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvDoneCards"
+                android:padding="16dp"
+                android:text="Đã học: 0"
+                android:textSize="18sp"
+                android:textColor="#1E88E5"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Chưa học -->
+        <androidx.cardview.widget.CardView
+            style="@style/MyCardStyle"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNotDoneCards"
+                android:padding="16dp"
+                android:text="Chưa học: 0"
+                android:textSize="18sp"
+                android:textColor="#F2994A"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Trung bình mỗi ngày -->
+        <androidx.cardview.widget.CardView
+            style="@style/MyCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAveragePerDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Trung bình mỗi ngày: 0 thẻ"
+                android:textSize="18sp"
+                android:textColor="#27AE60"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Biểu đồ tròn -->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Bộ lọc thống kê flashcard -->
+        <!-- Chế độ Thống kê -->
+        <RadioGroup
+            android:id="@+id/radioGroupMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theo tháng"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theo năm"/>
+        </RadioGroup>
+
+
+
+        <!-- Biểu đồ cột: Số thẻ học mỗi ngày -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Spinner
+                android:id="@+id/spinnerFlashcardDay"
+                android:layout_width="7dp"
+                android:layout_height="11dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/spinnerFlashcardMonth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinnerFlashcardYear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Thống kê Quiz -->
+        <androidx.cardview.widget.CardView
+            style="@style/MyCardStyle"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvTotalQuizzes"
+                    android:text="Số bài quiz đã làm: 0"
+                    android:textSize="18sp"
+                    android:textColor="#248FEF"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvAverageScore"
+                    android:text="Điểm trung bình: 0"
+                    android:textSize="18sp"
+                    android:textColor="#6C757D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Spinner
+                android:id="@+id/spinnerQuizDay"
+                android:layout_width="7dp"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/spinnerQuizMonth"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/spinnerQuizYear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <!-- Biểu đồ quiz -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

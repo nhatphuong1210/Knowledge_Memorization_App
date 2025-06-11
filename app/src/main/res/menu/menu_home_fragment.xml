@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_create_category"
+        android:title="Tạo danh mục mới"
+        android:icon="@drawable/icons8_plus_60"/>
+    <item
+        android:id="@+id/menu_receive_shared_category"
+        android:title="Nhận Category đã được chia sẻ"
+        />
+    <item
+        android:id="@+id/menu_receive_id_category"
+        android:title="Nhận Category từ mã" />
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="textColorWhite">#FFFFFFFF</color>
+    <color name="hintColor">#802B2B2B</color>
+
+    <color name="primaryPurple">#7B61FF</color>
+    <color name="lightPurple">#E7E4FF</color>
+    <color name="skyBlue">#89CFF3</color>
+    <color name="lightBlue">#E2F0FF</color>
+    <color name="pink">#FFB6C1</color>
+    <color name="lightPink">#FFE7ED</color>
+    <color name="yellow">#FFDD55</color>
+    <color name="lightYellow">#FFF6D4</color>
+    <color name="green">#98FB98</color>
+    <color name="lightGreen">#E7FFE7</color>
+    <color name="gradientStart">#FDFCFB</color>
+    <color name="gradientEnd">#E2D1F9</color>
+
+    <color name="iconPurple">#9A7DFF</color>
+    <color name="iconPink">#FF99A0</color>
+
+    <color name="progressBackground">#F0EFFF</color>
+    <color name="progressPrimary">#7B61FF</color>
+
+    <color name="cardBackground">#F8F8FF</color>
+    <color name="shadowColor">#33000000</color>
+
+    <color name="buttonWhite">#ffffff</color>
+
+    <color name="BlackTextColor">#000000</color>
+    <color name="Gradient">#FF69B4</color>
+
+
+    <color name="blue">#007EF2</color>
+
+
+    <color name="grey">#848282</color>
+    <color name="blue_5">#3B7DD8</color>
+    <color name="purple_500">#248fef</color>
+    <color name="card">#FED766</color>
+    <color name="correct">#1BD171</color>
+    <color name="incorrect">#EB4B4D</color>
+
+    <color name="buttonColor">#7B61FF</color>
+    <color name="lightBackground">#F5F5F5</color>
+    <color name="textColor">#333333</color>
+    <color name="buttonPrimary">#7B61FF</color>
+    <color name="buttonDanger">#FF3B30</color>
+    <color name="colorPrimarySoft">#5F33E1</color> <!-- Màu xanh dương nhạt -->
+    <color name="backgroundSoft">#F9FAFB</color> <!-- Nền sáng, gần trắng -->
+    <color name="navDrawerBackground">#FFFFFF</color> <!-- Màu trắng hoặc hơi xám nhạt -->
+    <color name="navItemTextColor">#444444</color> <!-- Text màu xám đậm -->
+    <color name="navItemIconColor">#666666</color> <!-- Icon màu xám trung bình -->
+    <color name="activeTab">#248FEF</color>
+    <color name="inactiveTab">#D9D9D9</color>
+
+    <color name="searchBackground">#4A5D78</color>
+
+
+    <color name="correctAnswerColor">#4CAF50</color> <!-- Màu xanh lá -->
+    <color name="wrongAnswerColor">#F44336</color>  <!-- Màu đỏ -->
+    <color name="defaultOptionColor">#FFFFFF</color> <!-- Màu trắng -->
+
+</resources>

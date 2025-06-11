@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- Nền trắng -->
+  <item>
+    <color android:color="#FFFFFF" />
+  </item>
+
+  <!-- Mảng màu xanh lá nhạt -->
+  <item android:top="60dp" android:left="20dp">
+    <shape android:shape="rectangle">
+      <gradient
+          android:type="radial"
+          android:gradientRadius="250dp"
+          android:centerX="50%"
+          android:centerY="50%"
+          android:startColor="#44A5F8D3"
+          android:endColor="#00FFFFFF" />
+      <size android:width="300dp" android:height="300dp"/>
+    </shape>
+  </item>
+
+  <!-- Mảng màu vàng nhạt -->
+  <item android:top="40dp" android:right="10dp">
+    <shape android:shape="rectangle">
+      <gradient
+          android:type="radial"
+          android:gradientRadius="250dp"
+          android:centerX="50%"
+          android:centerY="50%"
+          android:startColor="#44FFF59D"
+          android:endColor="#00FFFFFF" />
+      <size android:width="300dp" android:height="300dp"/>
+    </shape>
+  </item>
+
+  <!-- Mảng màu tím nhạt -->
+  <item android:top="280dp" android:right="30dp">
+    <shape android:shape="rectangle">
+      <gradient
+          android:type="radial"
+          android:gradientRadius="250dp"
+          android:startColor="#448C9EFF"
+          android:endColor="#00FFFFFF"/>
+      <size android:width="300dp" android:height="300dp"/>
+    </shape>
+  </item>
+
+  <!-- Mảng màu xanh dương nhạt -->
+  <item android:top="480dp" android:left="30dp">
+    <shape android:shape="rectangle">
+      <gradient
+          android:type="radial"
+          android:gradientRadius="250dp"
+          android:startColor="#4490CAF9"
+          android:endColor="#00FFFFFF"/>
+      <size android:width="300dp" android:height="300dp"/>
+    </shape>
+  </item>
+
+  <!-- Mảng màu cam nhạt -->
+  <item android:bottom="20dp" android:right="30dp">
+    <shape android:shape="rectangle">
+      <gradient
+          android:type="radial"
+          android:gradientRadius="250dp"
+          android:startColor="#44FFECB3"
+          android:endColor="#00FFFFFF"/>
+      <size android:width="300dp" android:height="300dp"/>
+    </shape>
+  </item>
+
+</layer-list>

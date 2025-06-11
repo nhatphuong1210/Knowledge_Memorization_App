@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_question" android:title="Thêm câu hỏi"/>
+    <item android:id="@+id/menu_view_questions" android:title="Xem danh sách câu hỏi"/>
+    <item android:id="@+id/menu_redo_wrong" android:title="Làm lại câu sai"/>
+    <item android:id="@+id/menu_rename_category" android:title="Đổi tên danh mục"/>
+    <item android:id="@+id/menu_delete_category" android:title="Xóa danh mục"/>
+    <item android:id="@+id/menu_show_quiz_id" android:title="Hiển thị mã chia sẻ"/>
+    <item android:id="@+id/menu_import_excel_quiz" android:title="Nhập dữ liệu từ Excel"/>
+</menu>

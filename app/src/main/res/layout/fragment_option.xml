@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".user.Fragment.OptionFragment">
+
+    <!-- Thanh trên cùng: Avatar, tên, xu -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_background"
+            android:src="@drawable/avatar"
+            android:scaleType="centerCrop"
+            android:contentDescription="User Avatar" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:text="User Name"
+            android:textColor="#248FEF"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CoinWithdrawal"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/spin_click"
+            android:contentDescription="Coin Icon" />
+
+        <TextView
+            android:id="@+id/CoinWithdrawal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="999"
+            android:textColor="#248FEF"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Logo -->
+
+    <!-- Nút Flashcard -->
+
+    <!-- Nút Quiz -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="274dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="36dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFlashcard"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#248FEF"
+        android:elevation="6dp"
+        android:text="FLASHCARD"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnQuiz"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#248FEF"
+        android:elevation="6dp"
+        android:text="QUIZ"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:cornerRadius="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnFlashcard" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
