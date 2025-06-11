@@ -9,6 +9,8 @@
 **Knowledge Memorization App** là ứng dụng học tập giúp người dùng:
 
 - Tạo bộ **Flashcard** theo chủ đề để ghi nhớ nhanh chóng.
+- Tạo bộ **Quiz** theo chủ đề để ghi nhớ nhanh chóng.
+- Tham gia các **Flashcard** để kiểm tra kiến thức mỗi ngày.
 - Tham gia các **Quiz** trắc nghiệm để kiểm tra kiến thức mỗi ngày.
 - Giao diện đơn giản, dễ sử dụng.
 - Đồng bộ dữ liệu người dùng với tài khoản cá nhân (Firebase).
@@ -51,22 +53,8 @@
 ---
 
 ## 📱 Giao diện mẫu
+![z6695158722196_61c335f7a60822daa1e3409d78345d16](https://github.com/user-attachments/assets/100b0915-338d-4aad-8318-5b474c1db7ee)
 
-> *(Thêm ảnh vào thư mục `screenshots/` và thay bằng tên ảnh thật)*
-
-- Trang chủ với thư mục câu hỏi  
-  ![](screenshots/home.png)
-
-- Flashcard lật 2 mặt  
-  ![](screenshots/flashcard.png)
-
-- Quiz theo chủ đề  
-  ![](screenshots/quiz.png)
-
-- Điểm số sau mỗi bài quiz  
-  ![](screenshots/score.png)
-
----
 
 ## 🔧 Cài đặt & chạy thử (Android)
 
