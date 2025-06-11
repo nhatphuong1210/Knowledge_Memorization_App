@@ -43,17 +43,17 @@
 ## 🖼️ Giao diện ứng dụng
 
 ### 🔐 Đăng ký / Đăng nhập / Trang chủ Admin
-![image](https://github.com/user-attachments/assets/8111dd57-de65-4d3a-b882-608427e71677)
+<img src="https://github.com/user-attachments/assets/8111dd57-de65-4d3a-b882-608427e71677" width="300"/>
 
 ### 🧑‍💼 Giao diện quản lý của Admin
-![image](https://github.com/user-attachments/assets/3ffca78e-8e1d-412e-a0af-8e018f331dc3)  
-![image](https://github.com/user-attachments/assets/b722ec7f-5e7f-48f8-85d3-b6ca2c5082aa)
+<img src="https://github.com/user-attachments/assets/3ffca78e-8e1d-412e-a0af-8e018f331dc3" width="300"/>
+<img src="https://github.com/user-attachments/assets/b722ec7f-5e7f-48f8-85d3-b6ca2c5082aa" width="300"/>
 
 ### 👩‍🎓 Giao diện của User
-![image](https://github.com/user-attachments/assets/24c63105-0b21-405c-b7f4-7aee084b7993)  
-![image](https://github.com/user-attachments/assets/c8a19a4f-64c0-4ef8-90c0-6e532edb1bf9)  
-![image](https://github.com/user-attachments/assets/7dbd076b-7ea6-493a-b2aa-c85e0618fd55)  
-![image](https://github.com/user-attachments/assets/c02f71ca-db90-4206-a41b-893b0224a10d)
+<img src="https://github.com/user-attachments/assets/24c63105-0b21-405c-b7f4-7aee084b7993" width="300"/>
+<img src="https://github.com/user-attachments/assets/c8a19a4f-64c0-4ef8-90c0-6e532edb1bf9" width="300"/>
+<img src="https://github.com/user-attachments/assets/7dbd076b-7ea6-493a-b2aa-c85e0618fd55" width="300"/>
+<img src="https://github.com/user-attachments/assets/c02f71ca-db90-4206-a41b-893b0224a10d" width="300"/>
 
 ---
 
