@@ -59,58 +59,58 @@
 
 ## 🛠️ Công nghệ sử dụng
 
-| Thành phần | Công nghệ |
-|------------|-----------|
-| Frontend | Kotlin + XML (Android Native) |
-| Authentication | Firebase Authentication |
-| Realtime DB | Firebase Realtime Database |
-| Cloud DB | Firebase Firestore |
-| UI/UX | Material Design Components |
-| Hiệu ứng | Snackbar, hiệu ứng lật flashcard, animation điểm số |
+| Thành phần         | Công nghệ                         |
+|--------------------|-----------------------------------|
+| Frontend           | Kotlin + XML (Android Native)     |
+| Authentication     | Firebase Authentication           |
+| Realtime DB        | Firebase Realtime Database        |
+| Cloud DB           | Firebase Firestore                |
+| UI/UX              | Material Design Components        |
+| Hiệu ứng           | Snackbar, lật flashcard, animation điểm số |
 
 ---
 
-⚙️ Cài đặt & chạy thử ứng dụng
-1. Mở dự án bằng Android Studio
+## ⚙️ Cài đặt & chạy thử ứng dụng
 
-2. Kết nối Firebase:
+1. **Mở dự án bằng Android Studio**
+2. **Kết nối Firebase**
+   - Truy cập [Firebase Console](https://console.firebase.google.com/)
+   - Tạo Project mới
+   - Thêm `package name` của ứng dụng
+   - Tải file `google-services.json` và đặt vào thư mục `app/`
+3. **Bật các dịch vụ Firebase**
+   - `Authentication`: bật Google và Email/Password
+   - `Firestore` hoặc `Realtime Database`: tạo cấu trúc lưu trữ cơ bản
+4. **Build & Run ứng dụng**
+   - Có thể chạy trên máy ảo hoặc thiết bị thật
 
-Truy cập Firebase Console
+---
 
-Tạo Project mới
+## 📌 Lưu ý
 
-Thêm package name ứng dụng
+- Mỗi thư mục (**folder**) giới hạn tối đa **100 câu hỏi**
+- Mỗi ngày nếu hoàn thành quiz **20 câu**, người dùng sẽ nhận được **phần thưởng** (ví dụ: thêm lượt spin, mở thêm câu hỏi...)
 
-Tải file google-services.json và đặt vào thư mục app/
+---
 
-3. Bật các dịch vụ Firebase cần thiết:
+## 👨‍💻 Tác giả
 
-Authentication: bật Google và Email/Password
+**👤 Nhất Phương**  
+Intern Developer & Designer – chuyên ngành **Truyền thông đa phương tiện**  
+💼 Mục tiêu: Phát triển ứng dụng học tập thân thiện, hữu ích  
+🔗 GitHub: [@nhatphuong1210](https://github.com/nhatphuong1210)
 
-Firestore Database / Realtime Database: tạo cấu trúc lưu trữ cơ bản
+---
 
-4. Build & Run ứng dụng
+## 🤝 Đóng góp
 
-Có thể chạy trên máy ảo hoặc thiết bị thật
-
-📌 Lưu ý
-Mỗi thư mục (folder) giới hạn tối đa 100 câu hỏi
-
-Mỗi ngày nếu hoàn thành quiz 20 câu, người dùng sẽ nhận được phần thưởng (spin, mở thêm câu hỏi, v.v.)
-
-👨‍💻 Tác giả
-👤 Nhất Phương
-Intern Developer & Designer – chuyên ngành Truyền thông đa phương tiện
-💼 Mục tiêu: Phát triển ứng dụng học tập thân thiện, hữu ích
-🔗 GitHub: @nhatphuong1210
-
-🤝 Đóng góp
 Bạn có thể:
 
-Gửi Issue nếu phát hiện lỗi hoặc đề xuất cải tiến
+- Gửi **Issue** nếu phát hiện lỗi hoặc đề xuất cải tiến
+- Gửi **Pull Request** nếu muốn đóng góp mã nguồn
+- ⭐ **Star** repo để ủng hộ dự án
 
-Gửi Pull Request nếu muốn đóng góp mã nguồn
+---
 
-⭐ Star repo để ủng hộ dự án
-
-Cảm ơn bạn đã ghé thăm! Hãy trải nghiệm ứng dụng và cùng nhau hoàn thiện nó tốt hơn mỗi ngày.
+> Cảm ơn bạn đã ghé thăm!  
+> Hãy trải nghiệm ứng dụng và cùng nhau hoàn thiện nó tốt hơn mỗi ngày.
