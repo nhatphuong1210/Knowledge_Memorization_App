@@ -8,33 +8,52 @@
 
 **Knowledge Memorization App** là ứng dụng học tập giúp người dùng:
 
-- Tạo bộ **Flashcard** theo chủ đề để ghi nhớ nhanh chóng.
-- Tạo bộ **Quiz** theo chủ đề để ghi nhớ nhanh chóng.
-- Tham gia các **Flashcard** để kiểm tra kiến thức mỗi ngày.
-- Tham gia các **Quiz** trắc nghiệm để kiểm tra kiến thức mỗi ngày.
-- Giao diện đơn giản, dễ sử dụng.
-- Đồng bộ dữ liệu người dùng với tài khoản cá nhân (Firebase).
+- Tạo bộ **Flashcard** và **Quiz** theo từng chủ đề.
+- Ôn tập kiến thức thông qua hình thức **Flashcard lật thẻ** hoặc **Quiz trắc nghiệm**.
+- Giao diện hiện đại, đơn giản, dễ sử dụng.
+- Đồng bộ dữ liệu người dùng với tài khoản cá nhân qua **Firebase**.
 
 ---
 
 ## 🎯 Tính năng nổi bật
 
 ### ✅ Flashcard
-- Tạo, chỉnh sửa, xóa flashcard theo từng chủ đề.
-- Giao diện lật flashcard đơn giản, dễ sử dụng.
+- Tạo, chỉnh sửa, xóa flashcard theo chủ đề.
+- Giao diện lật thẻ trực quan, dễ sử dụng.
 
 ### ✅ Quiz
-- Tạo câu hỏi trắc nghiệm (multiple choice) theo từng chủ đề.
+- Tạo các câu hỏi trắc nghiệm (nhiều lựa chọn) theo từng chủ đề.
 - Tính điểm theo số câu đúng và thời gian làm bài.
-- Gợi ý chủ đề cần cải thiện dựa trên kết quả.
+- Gợi ý chủ đề cần cải thiện dựa trên kết quả bài kiểm tra.
 
-### ✅ Hệ thống thư mục
-- Người dùng có thể tạo **Folder** để nhóm các bộ câu hỏi/flashcard theo chủ đề.
+### ✅ Hệ thống thư mục & quản lý nội dung
+- Người dùng có thể tạo **Folder/Subfolder** để nhóm câu hỏi/flashcard.
+- Dễ dàng đổi tên, thêm câu hỏi, hoặc xóa thư mục.
 
-### ✅ Tài khoản và lưu trữ
-- Đăng nhập bằng Google hoặc Email (qua Firebase Authentication).
-- Lưu trữ dữ liệu người dùng cá nhân trên Firebase Realtime Database hoặc Firestore.
-- Mỗi người dùng có thể quản lý danh mục học riêng.
+### ✅ Tài khoản và lưu trữ cá nhân
+- Đăng nhập bằng **Google** hoặc **Email/Password** (Firebase Authentication).
+- Dữ liệu người dùng được lưu và đồng bộ qua Firebase Realtime Database hoặc Firestore.
+
+### ✅ Tài khoản Admin
+- Admin có thể quản lý toàn bộ thư mục, người dùng và nội dung quiz/flashcard.
+- Hệ thống phân quyền rõ ràng giữa **Admin** và **User**.
+
+---
+
+## 🖼️ Giao diện ứng dụng
+
+### 🔐 Đăng ký / Đăng nhập / Trang chủ Admin
+![image](https://github.com/user-attachments/assets/8111dd57-de65-4d3a-b882-608427e71677)
+
+### 🧑‍💼 Giao diện quản lý của Admin
+![image](https://github.com/user-attachments/assets/3ffca78e-8e1d-412e-a0af-8e018f331dc3)  
+![image](https://github.com/user-attachments/assets/b722ec7f-5e7f-48f8-85d3-b6ca2c5082aa)
+
+### 👩‍🎓 Giao diện của User
+![image](https://github.com/user-attachments/assets/24c63105-0b21-405c-b7f4-7aee084b7993)  
+![image](https://github.com/user-attachments/assets/c8a19a4f-64c0-4ef8-90c0-6e532edb1bf9)  
+![image](https://github.com/user-attachments/assets/7dbd076b-7ea6-493a-b2aa-c85e0618fd55)  
+![image](https://github.com/user-attachments/assets/c02f71ca-db90-4206-a41b-893b0224a10d)
 
 ---
 
@@ -43,27 +62,55 @@
 | Thành phần | Công nghệ |
 |------------|-----------|
 | Frontend | Kotlin + XML (Android Native) |
-| Backend & Auth | Firebase Authentication |
-| Database | Firebase Realtime Database / Firestore |
-| UI/UX | Material Design |
-| Animation | Snackbar, hiệu ứng lật thẻ, số điểm động, v.v. |
+| Authentication | Firebase Authentication |
+| Realtime DB | Firebase Realtime Database |
+| Cloud DB | Firebase Firestore |
+| UI/UX | Material Design Components |
+| Hiệu ứng | Snackbar, hiệu ứng lật flashcard, animation điểm số |
 
 ---
 
-## 📱 Giao diện mẫu
-** Giao diện trang đăng kí, đăng nhập, trang chủ admin**
-![image](https://github.com/user-attachments/assets/8111dd57-de65-4d3a-b882-608427e71677)
-** Giao diện các trang quản lí của Admin**
-![image](https://github.com/user-attachments/assets/3ffca78e-8e1d-412e-a0af-8e018f331dc3)
-![image](https://github.com/user-attachments/assets/b722ec7f-5e7f-48f8-85d3-b6ca2c5082aa)
-** Giao diện các trang của User**
-![image](https://github.com/user-attachments/assets/24c63105-0b21-405c-b7f4-7aee084b7993)
-![image](https://github.com/user-attachments/assets/c8a19a4f-64c0-4ef8-90c0-6e532edb1bf9)
-![image](https://github.com/user-attachments/assets/7dbd076b-7ea6-493a-b2aa-c85e0618fd55)
-![image](https://github.com/user-attachments/assets/c02f71ca-db90-4206-a41b-893b0224a10d)
+⚙️ Cài đặt & chạy thử ứng dụng
+1. Mở dự án bằng Android Studio
 
+2. Kết nối Firebase:
 
+Truy cập Firebase Console
 
+Tạo Project mới
 
+Thêm package name ứng dụng
 
+Tải file google-services.json và đặt vào thư mục app/
 
+3. Bật các dịch vụ Firebase cần thiết:
+
+Authentication: bật Google và Email/Password
+
+Firestore Database / Realtime Database: tạo cấu trúc lưu trữ cơ bản
+
+4. Build & Run ứng dụng
+
+Có thể chạy trên máy ảo hoặc thiết bị thật
+
+📌 Lưu ý
+Mỗi thư mục (folder) giới hạn tối đa 100 câu hỏi
+
+Mỗi ngày nếu hoàn thành quiz 20 câu, người dùng sẽ nhận được phần thưởng (spin, mở thêm câu hỏi, v.v.)
+
+👨‍💻 Tác giả
+👤 Nhất Phương
+Intern Developer & Designer – chuyên ngành Truyền thông đa phương tiện
+💼 Mục tiêu: Phát triển ứng dụng học tập thân thiện, hữu ích
+🔗 GitHub: @nhatphuong1210
+
+🤝 Đóng góp
+Bạn có thể:
+
+Gửi Issue nếu phát hiện lỗi hoặc đề xuất cải tiến
+
+Gửi Pull Request nếu muốn đóng góp mã nguồn
+
+⭐ Star repo để ủng hộ dự án
+
+Cảm ơn bạn đã ghé thăm! Hãy trải nghiệm ứng dụng và cùng nhau hoàn thiện nó tốt hơn mỗi ngày.
