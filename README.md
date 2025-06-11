@@ -86,13 +86,6 @@
 
 ---
 
-## 📌 Lưu ý
-
-- Mỗi thư mục (**folder**) giới hạn tối đa **100 câu hỏi**
-- Mỗi ngày nếu hoàn thành quiz **20 câu**, người dùng sẽ nhận được **phần thưởng** (ví dụ: thêm lượt spin, mở thêm câu hỏi...)
-
----
-
 ## 👨‍💻 Tác giả
 
 **👤 Nhất Phương**  
